@@ -1,0 +1,51 @@
+table thead th {
+    background-color: #1c78cc !important;
+    color: #fff !important;
+}
+
+table svg {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+table svg:hover {
+    cursor: pointer;
+    opacity: .6;
+}
+svg.elimina {
+    fill: red;
+}
+svg.modifica {
+    fill: orange;
+}
+
+.aggiungi-utente {
+    background-color: #1c78cc;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    font-size: .9em;
+}
+.aggiungi-utente:hover {
+    opacity: .8;
+}
+
+/* -------------------------------- */
+
+form input {
+    border: none;
+    outline: none;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+}
+
+form input[type=submit] {
+    background-color: #1c78cc;
+    color: #fff;
+    font-weight: 600;
+}
+form input[type=submit]:hover {
+    opacity: .8;
+}

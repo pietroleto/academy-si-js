@@ -1,0 +1,94 @@
+.dashboard-panel {
+    background-color: #eef2f5;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 30px;
+    display: flex;
+}
+
+nav {
+    background-color: #fff;
+    width: 25%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    height: 100%;
+    padding: 50px;
+}
+
+nav h3 {
+    font-weight: 600;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+    top: 30px;
+}
+nav ul a {
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 20px;
+}
+nav ul a.active {
+    color: #1c78cc;
+    border-left: 3px solid #1c78cc;
+}
+nav ul li {
+    padding: 10px 0;
+    font-weight: 500;
+}
+nav ul a svg {
+    width: 20px;
+    height: 20px;
+}
+nav ul a.active svg {
+    fill: #1c78cc;
+}
+
+/* --------------------------------------- */
+
+.panel-body {
+    width: 100%;
+    padding: 50px;
+}
+
+.exit-button {
+    color: #fff;
+    border: 2px solid red;
+    padding: 5px 15px;
+    background-color: red;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.3);
+}
+.exit-button:hover {
+    opacity: .8;
+}
+
+/* --------------------------------------- */
+
+.card-structure {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    margin: 40px 20px;
+    padding: 30px;
+    gap: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+}
+.card-structure:hover {
+    margin: 35px 15px;
+}
+
+.card-structure svg {
+    width: 30px;
+    height: 30px;
+}
